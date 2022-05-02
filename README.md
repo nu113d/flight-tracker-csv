@@ -31,7 +31,12 @@ _source:https://openskynetwork.github.io/opensky-api/rest.html#response_
 Also note that not every flying aircraft in the world can be tracked. The OpenSky Network uses [ADS-B](https://en.wikipedia.org/wiki/Automatic_dependent_surveillance_%E2%80%93_broadcast) receivers to obtain this information and some areas may not be covered 
 
 # How to use it
-First, you have to obtain the [ICAO24](https://en.wikipedia.org/wiki/Aviation_transponder_interrogation_modes#ICAO_24-bit_address) address of the aircraft either from the [OpenSky Network Aircraft Database](https://opensky-network.org/aircraft-database) or (the easiest way) from [FlightRadar24](https://www.flightradar24.com/data)
+Download the script
+```
+git clone https://github.com/nu113d/flight-tracker-csv.git
+cd flight-tracker-csv
+```   
+Now, you have to obtain the [ICAO24](https://en.wikipedia.org/wiki/Aviation_transponder_interrogation_modes#ICAO_24-bit_address) address of the aircraft either from the [OpenSky Network Aircraft Database](https://opensky-network.org/aircraft-database) or (the easiest way) from [FlightRadar24](https://www.flightradar24.com/data)
 
 Then simply run
 ```python flightTracker.py icao24_address```
