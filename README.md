@@ -43,9 +43,10 @@ Then simply run
 
 More options
 ```
-  -p PATH, --path PATH  where to save the file (default is the current directory)
+  -s PATH, --path PATH  where to save the file (default is the current directory)
   -d DURATION, --duration DURATION write to file for d seconds (if 0 write forever)
   -t TIME, --time TIME  wait t seconds before requesting again for new data(minimum and default is 5 seconds)
+  -p TIME, --property choose which properties are requested. Check README for them. e.g -p propery1,property2
 ```                        
 
 The resulting .csv filename, if not specified, is the icao24 address with the current timestamp
